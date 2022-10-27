@@ -72,6 +72,12 @@ routers: {
     }
 }
 
+secrets: {
+    db: {
+        type: "basic"
+    }
+}
+
 if args.tests {
     jobs: test: {
         build: {
